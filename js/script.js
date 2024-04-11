@@ -6,11 +6,11 @@ let price_one = 5;
 let price_two = 15;
 let price_three = 10;
 
-if (discount.toLowerCase === 'yes') {
+if (discount.toLowerCase() === 'yes') {
   price_one = price_one - 5;
   price_two = price_two - 5;
   price_three = price_three - 5;
-} else if (discount.toLowerCase === 'no') {
+} else if (discount.toLowerCase() === 'no') {
   price_one = price_one;
   price_two = price_two;
   price_three = price_three;
